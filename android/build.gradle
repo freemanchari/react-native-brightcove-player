@@ -7,7 +7,7 @@ buildscript {
         maven { url 'https://jitpack.io' }
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.3'
+        classpath 'com.android.tools.build:gradle:4.2.2'
     }
 }
 
@@ -20,7 +20,7 @@ allprojects {
             url "$projectDir/../node_modules/react-native/android"
         }
         maven {
-            url 'http://repo.brightcove.com/releases'
+            url 'https://repo.brightcove.com/releases'
         }
         maven {
             url 'https://maven.google.com'
